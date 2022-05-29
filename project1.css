@@ -198,3 +198,16 @@ body {
 /* media queries go here */
 
 
+@media only screen and (max-width: 432px) {
+    body {
+      height: 800px;
+      width: 100vw;
+    }
+
+    .main-ctr {
+        padding: 10px;
+        min-height: none;
+        width: 75%;
+        min-width: none;
+    }
+  }

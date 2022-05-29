@@ -4,7 +4,7 @@
 
 body {
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
     background-color: hsl(217, 54%, 11%);
     display: flex;
     justify-content: center;
@@ -19,13 +19,12 @@ body {
     background-color: hsl(216, 50%, 16%);
     height: 78%;
     width: 375px;
-    min-width: 376px;
     margin: auto;
     border-radius: 17px;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 700px;
+    
 }
 
 
@@ -182,6 +181,7 @@ body {
     padding: 10px;
     padding-bottom: 20px;
     color :hsl(178, 100%, 50%);
+    text-align: center;
 }
 
 .attribution > a {
@@ -192,6 +192,7 @@ body {
 
 .attribution:hover {
     cursor: pointer;
+   
 }
 
 
@@ -206,10 +207,11 @@ body {
 
     .main-ctr {
         padding: 10px;
+        padding-top: 17px;
         min-height: none;
         width: 75%;
         min-width: none;
+        width: 260px
     }
   }
 
-  
